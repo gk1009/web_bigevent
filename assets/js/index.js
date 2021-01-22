@@ -26,7 +26,7 @@ function getUserInfo() {
 }
 function renderAvater(user) {
     //渲染名称
-    var name = user.nicknume || user.username
+    var name = user.nickname || user.username
     $("#welcome").html('欢迎&nbsp;&nbsp;' + name);
     //渲染头像
     if (user.user_pic !== null) {
